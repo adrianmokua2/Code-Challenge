@@ -1,4 +1,4 @@
-// This is the input prompt required to enter the students marks
+// This is the input prompt required to enter the students
 const getGrade = require("./grading");
 
 const readline = require('readline');

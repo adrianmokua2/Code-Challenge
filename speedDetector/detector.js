@@ -1,3 +1,4 @@
+// This function is used to calculate points garnered by thr driver
 function calculateSpeedStatus(speed) {
     if (speed < 70) {
       return "OK";
