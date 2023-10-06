@@ -1,8 +1,9 @@
-const sal = Number(prompt("Enter your gross salary: "));
-const salary = Number(sal)
+// this is used to input and output salary
+const readline = require('readline');
 
-const ben = Number(prompt("Please enter your total benefits: "));
-const benefits = Number(ben)
-
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
 
 
